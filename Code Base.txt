@@ -1,0 +1,49 @@
+#include <dht.h>
+
+dht DHT;
+
+#define DHT11_PIN 7
+#define sensor_pin A1
+#define limit  60
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(8, INPUT); // soil moisture
+  pinMode(7, INPUT); 
+  pinMode(10, OUTPUT); //motor
+  }
+
+  void loop(){
+
+    int moisture_;
+    int sensor_analog;
+
+     sensor_analog = analogRead(sensor_pin);
+     moisture_ = ( 100 - ( (sensor_analog/1023.00) * 100 ) );
+
+      
+      int chk = DHT.read11(DHT11_PIN);
+      
+      if(moisture_ < limit){
+        digitalWrite(10, HIGH);
+      }
+  
+      else{
+        digitalWrite(10,LOW);
+      }
+      
+        
+        Serial.print("Temperature = ");
+        Serial.println(DHT.temperature);
+        Serial.print("Humidity = ");
+        Serial.println(DHT.humidity);
+        Serial.print("Soil Moisture = ");
+        Serial.println(moisture_);
+
+
+              
+    delay(2500);
+  
+  }
+    
+    
