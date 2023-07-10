@@ -21,9 +21,9 @@ The Smart Irrigation System is a cutting-edge project that utilizes real-time da
 6. Access the Smart Irrigation System interface via the provided URL.
 
 ## Usage
-1. Open the Smart Irrigation System interface in your web browser.
+1. Download the app on your android device using the included .apk file.
 2. Navigate to the sensor data section to view real-time readings of temperature, humidity, and moisture levels.
 3. Configure the watering schedules based on the specific plant types and their water requirements.
-4. The system will automatically control the irrigation mechanisms, delivering the appropriate amount of water to each plant at the designated times.
+4. The system will indicate when the pump needs to be turned on/off.
 5. Monitor the system's performance, plant health, and water consumption through the user-friendly interface.
 6. Make any necessary adjustments to the watering schedules or system settings to optimize its performance.
