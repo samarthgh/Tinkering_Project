@@ -27,21 +27,3 @@ The Smart Irrigation System is a cutting-edge project that utilizes real-time da
 4. The system will automatically control the irrigation mechanisms, delivering the appropriate amount of water to each plant at the designated times.
 5. Monitor the system's performance, plant health, and water consumption through the user-friendly interface.
 6. Make any necessary adjustments to the watering schedules or system settings to optimize its performance.
-
-## Contributing
-Contributions to the Smart Irrigation System project are welcome! If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Develop and test your changes.
-4. Commit your changes with clear and concise commit messages.
-5. Push your changes to your forked repository.
-6. Submit a pull request, explaining the purpose and benefits of your changes.
-
-## License
-This project is licensed under the [MIT License](LICENSE.md).
-
-## Contact
-If you have any questions or suggestions regarding the Smart Irrigation System, please contact the project team at [email protected]
-
-We appreciate your interest in this project and look forward to hearing about your experiences and contributions!
